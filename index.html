@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portifólio</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><i class="fab fa-github"></i><a href="https://github.com/leo-leosantos" target="_blank"> GitHub</a></li>
+                <li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/leandro-dos-santos-35644790/" target="_blank"> LinkedIn</a></li>
+                <li><i class="fas fa-envelope"></i><a href="mailto:lds.leosantos@gmail.com" target="_blank"> Email</a></li>
+                <li><i class="fab fa-whatsapp"></i><a href="https://wa.me/+5531997050118" target="_blank"> Whatsapp </a></li>
+            </ul>
+        </nav>
+      
+    </header>  
+    <main>
+    <section id="presentation">
+        <div class="presentation container">
+            <div>
+                <h1>Olá, <span></span></h1>
+                <h1>meu nome é <span></span></h1>
+                <h1>Leandro dos Santos<span></span></h1>
+                <a href="#portfolio" type="button" class="cta">Portifólio</a>
+            </div>
+        </div>
+    </section>
+
+    <article id="portfolio">
+        <div class="portfolio container">
+            <div class="portfolio header">
+                <h1 class="section-title"><span>Portifólio</span></h1>
+            </div>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Projeto com Laravel</h1>
+                        <h2> <a href="https://github.com/leo-leosantos/Painel-Administrativo" target="_blank">Catálago de Livros Lidos</a> </h2>
+                        <p>Projeto em desenvolvimento. Catálago para armarzenar os livros lidos por um leitor.</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="/img/painelaravel.PNG" alt="img">
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Projeto com CakePHP</h1>
+                        <h2>Projeto Painel Administrativo</h2>
+                        <p>Projeto Finalizado. Painel Administrativo desenvolvimento para uma tranportadora gerenciar as viagens da Empresa.</p>
+                    </div>
+                    <figure class="project-img">
+                        <img src="/img/painelaravel.PNG" alt="img">
+                    </figure>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Projeto com CakePHP</h1>
+                        <h2>Catalago Livros Lidos + Blog</h2>
+                        <p>Projeto Finalizado. Painel Administrativo mais Blog. Gerenciar os livros lidos e  Blog</p>
+                    </div>
+                    <figure class="project-img">
+                        <img src="/img/painelaravel.PNG" alt="img">
+                    </figure>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Projeto com HTML e CSS</h1>
+                        <h2>Projeto Portifólio</h2>
+                        <p>Projeto Finalizado. Projeto desenvolvimento para o Modulo V do Tech Academy da StartSe Turma 1. 
+                        </p>
+                    </div>
+                    <figure class="project-img">
+                        <img src="/img/portifolio.JPG" alt="img">
+                    </figure>
+                </div>
+             
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+            <h3>Projeto Desenvolvido para o Tech Academy - Turma 1</h3>
+            <div id="current_date">
+                <script>
+                date = new Date();
+                year = date.getFullYear();
+                month = date.getMonth() + 1;
+                day = date.getDate();
+                document.getElementById("current_date").innerHTML = day + "/" + month + "/" + year;
+            </script>
+    </footer>
+</main>
+
+</body>
+
+</html>
