@@ -5,7 +5,8 @@
     margin: 0;
     box-sizing: border-box;
 
-}html {
+}
+html {
     font-size: 10px;
     font-family: 'Poppins', 'Times New Roman', Times, serif;
     scroll-behavior: smooth;
@@ -278,8 +279,24 @@ p {
     font-size: 1.8rem;
     font-weight: 500;
     margin-top: 10px;
+    text-align: center;
+
 
 }
+#link_topo a {
+
+    color: black;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+#link_topo  {
+    text-align: right;
+
+}
+#link_topo a:hover {
+    color: gold;
+}
+
 /* keyframes */
 @keyframes text_reveal {
     100% {
